@@ -50,7 +50,7 @@ var (
             Path:      "percpu",
             Argument:  "percpu",
             Shorthand: "r",
-            Usage:     "Divide the load averages by the number of CPUs",
+            Usage:     "Check the load average divided by the number of CPUs.",
             Value:     &plugin.PerCPU,
         },
 		{

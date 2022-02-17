@@ -34,7 +34,7 @@ Flags:
   -c, --critical string   Critical threshold for load averages (default "0.85,0.8,0.75")
   -h, --help              help for check-load
   -m, --metricsonly       Outputs only the metrics without checking the threshold.
-  -r, --percpu            Divide the load averages by the number of CPUs
+  -r, --percpu            Check the load average divided by the number of CPUs.
   -w, --warning string    Warning threshold for load averages (default "0.75,0.7,0.65")
 
 Use "check-load [command] --help" for more information about a command.
