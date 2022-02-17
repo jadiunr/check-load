@@ -2,7 +2,7 @@
 ![Go Test](https://github.com/jadiunr/check-load/workflows/Go%20Test/badge.svg)
 ![goreleaser](https://github.com/jadiunr/check-load/workflows/goreleaser/badge.svg)
 
-# Check Load
+# Sensu load average check
 
 ## Table of Contents
 - [Overview](#overview)
@@ -52,7 +52,7 @@ following command to add the asset:
 sensuctl asset add jadiunr/check-load
 ```
 
-If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index][https://bonsai.sensu.io/assets/jadiunr/check-load].
+If you're using an earlier version of sensuctl, you can find the asset on the [Bonsai Asset Index](https://bonsai.sensu.io/assets/jadiunr/check-load).
 
 ### Check definition
 
